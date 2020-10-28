@@ -33,7 +33,7 @@ public class Lab10 {
             }
             for (int j = 1; j <= i; j++)
             {
-                System.out.print(Integer.toString(j)+" ");
+                System.out.print(Integer.toString(j));
             }
             System.out.println();
         }
