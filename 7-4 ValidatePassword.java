@@ -4,7 +4,7 @@ public class ValidatePassword {
         // Write your code here
         Scanner inputDevice = new Scanner(System.in);
         do {
-            System.out.println("Enter password:");
+            System.out.println("Enter password with 2 uppercase, 3 lowercase, and a number:");
             String password = inputDevice.nextLine();
             int upperC = 0, lowerC = 0, num = 0;
             for (char c: password.toCharArray()){
