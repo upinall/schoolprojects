@@ -23,7 +23,7 @@ public class ValidatePassword {
             if (lowerC < 2){
                 errorM += "\n lowercase letters";
             }
-            if (num < 2){
+            if (num < 1)
                 errorM += "\n digits";
             }
             if (errorM.length() > 1) {
