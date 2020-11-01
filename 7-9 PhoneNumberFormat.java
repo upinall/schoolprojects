@@ -4,7 +4,7 @@ public class PhoneNumberFormat {
         // Write your code here
         Scanner inputDevice = new Scanner(System.in);
         do {
-            System.out.print("\nEnter the Phone Number: ");
+            System.out.print("Enter the Phone Number: ");
             String phoneText = inputDevice.nextLine();
             if (phoneText.contains("999"))
             break;
